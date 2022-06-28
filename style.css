@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+.new-book {
+  display: block;
+  background-color: #6F00FF;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  margin: 0 auto;
+  width: 280px;
+  margin-top: 30px;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+caption {
+    padding: 15px;
+    padding-top: 20px;
+    caption-side: top;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.form-popup {
+  display: none;
+  position: relative;
+  bottom: 140px;
+  margin: 0 auto;
+  border: 3px solid #f1f1f1;
+  z-index: 1000;
+  width: 280px;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.form-container p {
+  margin-bottom: 5px;
+}
+
+.form-container input[type=text]  {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container input[type=radio] {
+  margin-bottom: 10px;
+}
+
+.form-container .btn {
+  background-color: darkgreen;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: crimson;
+}
+
+.form-container .btn:hover, .new-book:hover {
+  opacity: 1;
+}
+
